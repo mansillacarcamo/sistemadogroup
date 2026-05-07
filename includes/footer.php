@@ -2,7 +2,7 @@
 </main>
 <?php if (!empty($usuario)): ?></div><?php endif; ?>
 <footer class="text-center text-muted py-3 border-top bg-white no-print app-footer">
-  <small class="d-block mb-1">DOGROUP &copy; <?= date('Y') ?> &mdash; Sistema OC</small>
+  <small class="d-block mb-1">DOGROUP &copy; <?= date('Y') ?> &mdash; Sistema OC <span style="color:#16a34a;font-weight:600">[deploy-test ✓]</span></small>
   <small class="d-block">
     Todos los derechos reservados &middot; Desarrollado por
     <strong>Departamento de Informática DOGroup</strong>
