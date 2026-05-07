@@ -3,8 +3,8 @@
 # Protege archivos sensibles cuando el dominio apunta al repo
 # ============================================================
 
-# No listar directorios
-Options -Indexes
+# No listar directorios + permitir seguir symlinks
+Options -Indexes +FollowSymLinks
 
 # Documento por defecto
 DirectoryIndex index.php login.php
